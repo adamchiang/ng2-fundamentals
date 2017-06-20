@@ -1,0 +1,9 @@
+{
+   "logPrefix": "Event App",
+   "notify": false,
+   "server": {
+      "routes": {
+         "/node_modules": "node_modules"
+      }
+   }
+}
