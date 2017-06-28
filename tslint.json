@@ -33,13 +33,14 @@
       "import-spacing": true,
       "indent": [
          true,
-         "spaces"
+         "spaces",
+         3
       ],
       "interface-over-type-literal": true,
       "invoke-injectable": true,
       "label-position": true,
       "max-line-length": [
-         false,
+         true,
          140
       ],
       "member-access": false,
@@ -66,7 +67,7 @@
       "no-empty": false,
       "no-eval": true,
       "no-inferrable-types": [
-         false,
+         true,
          "ignore-params"
       ],
       "no-input-rename": true,
@@ -128,5 +129,7 @@
          "check-type"
       ]
    },
-   "rulesDirectory": ["node_modules/codelyzer"]
+   "rulesDirectory": [
+      "node_modules/codelyzer"
+   ]
 }

@@ -1,18 +1,23 @@
 {
    "compileOnSave": true,
    "compilerOptions": {
+      "baseUrl": "src",
       "declaration": false,
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
-      "module": "commonjs",
+      "lib": [
+         "es2016",
+         "dom"
+      ],
       "moduleResolution": "node",
       "noImplicitAny": true,
+      "outDir": "./dist/out-tsc",
       "removeComments": false,
       "sourceMap": true,
       "suppressImplicitAnyIndexErrors": true,
       "target": "es5",
       "typeRoots": [
-         "./node_modules/@types/"
+         "node_modules/@types"
       ]
    },
    "exclude": [
