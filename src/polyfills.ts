@@ -41,15 +41,15 @@
 
 
 /** Evergreen browsers require these. **/
-import "core-js/es6/reflect";
-import "core-js/es7/reflect";
+import 'core-js/es6/reflect';
+import 'core-js/es7/reflect';
 
 
 /** ALL Firefox browsers require the following to support `@angular/animation`. **/
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
-import "core-js/client/shim.min";
-import "jquery/dist/jquery.min";
+import 'core-js/client/shim.min';
+import 'jquery/dist/jquery.min';
 // import "bootstrap/dist/js/bootstrap"; // Breaks
 // import "zone.js/dist/zone";
 // import "systemjs/dist/system.src";
@@ -57,7 +57,7 @@ import "jquery/dist/jquery.min";
 /***************************************************************************************************
  * Zone JS is required by Angular itself.
  */
-import "zone.js/dist/zone";  // Included with Angular CLI.
+import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 
 

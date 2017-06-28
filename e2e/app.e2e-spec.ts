@@ -1,14 +1,14 @@
-import { EventsAppPage } from "./app.po";
+import { EventsAppPage } from './app.po';
 
-describe("events-app App", () => {
+describe('events-app App', () => {
    let page: EventsAppPage;
 
    beforeEach(() => {
       page = new EventsAppPage();
    });
 
-   it("should display message saying app works", () => {
+   it('should display message saying app works', () => {
       page.navigateTo();
-      expect(page.getParagraphText()).toEqual("app works!");
+      expect(page.getParagraphText()).toEqual('app works!');
    });
 });

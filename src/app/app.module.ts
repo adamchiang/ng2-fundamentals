@@ -1,9 +1,11 @@
-import { BrowserModule } from "@angular/platform-browser";
-import { NgModule } from "@angular/core";
-import { FormsModule } from "@angular/forms";
-import { HttpModule } from "@angular/http";
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { EventsModule } from './events/events.module';
+import { SharedModule } from './shared/shared.module';
+import { HttpModule } from '@angular/http';
+// import { RouterModule } from '@angular/router';
 
-import { AppComponent } from "./app.component";
+import { AppComponent } from './app.component';
 
 @NgModule({
    declarations: [
@@ -11,8 +13,10 @@ import { AppComponent } from "./app.component";
    ],
    imports: [
       BrowserModule,
-      FormsModule,
+      EventsModule,
+      SharedModule,
       HttpModule
+      // RouterModule.forRoot([])
    ],
    providers: [],
    bootstrap: [AppComponent]
