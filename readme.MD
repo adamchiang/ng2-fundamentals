@@ -4,7 +4,7 @@ The Angular 2+ Fundamentals Course uses SystemJS, this project was generated wit
 
 Angular 2+ Fundamentals Course
 ==============================
-This is the getting started package for the Pluralsight course on Angular 2 Fundamentals found here: http://app.pluralsight.com/courses/angular-fundamentals
+This is the getting started package for the Pluralsight course on Angular 2 Fundamentals found here: https://app.pluralsight.com/courses/angular-fundamentals
 
 **Course Status**
 
@@ -22,3 +22,11 @@ Follow along with the course linked above. To start the server:
 npm install
 npm start
 ```
+
+angular2-fundamentals-files
+---------------------------
+A few helper files for the Angular 2+ Fundamentals course can be found at https://github.com/jmcooper/angular2-fundamentals-files.
+
+Practice Exercises
+------------------
+Practice exercises can be found at https://jcoop.io/angular-2-practice-exercises.

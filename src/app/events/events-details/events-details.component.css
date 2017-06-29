@@ -1,0 +1,8 @@
+.container {
+   /* padding: top, right, bottom, left */
+   padding: 0px, 20px;
+}
+
+.event-image {
+   height: 100px;
+}

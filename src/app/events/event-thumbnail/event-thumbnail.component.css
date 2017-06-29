@@ -1,0 +1,23 @@
+.bold {
+   font-weight: bold;
+}
+
+.green {
+   color: #005000 !important;
+}
+
+.pad-left {
+   margin-left: 10px;
+}
+
+.red {
+   color: #A00000 !important;
+}
+
+.thumbnail {
+   min-height: 240px;
+}
+
+.well div {
+   color: #BBB;
+}
